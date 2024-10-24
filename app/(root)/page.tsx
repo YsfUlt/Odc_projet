@@ -25,8 +25,8 @@ export default async function Home({ searchParams }: SearchParamProps) {
       <section className="bg-orange-300  bg-dotted-pattern bg-contain py-5 md:py-10">
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justify-center gap-8">
-            <h1 className="h1-bold">Host, Connect, Celebrate: Your Events, Our Platform!</h1>
-            <p className="p-regular-20 md:p-regular-24">Book and learn helpful tips from 3,168+ mentors in world-class companies with our global community.</p>
+            <h1 className="h1-bold">Célébrons ensemble l'événementiel avec Evently </h1>
+            <p className="p-regular-20 md:p-regular-24">Organisez, Célébrez : L'événement parfait à portée de clic! </p>
             <Button size="lg" asChild className="button w-full sm:w-fit bg-black hover:bg-gray-600 transition-colors duration-300 ease-in-out">
             {/* <Button size="lg" asChild className="button w-full sm:w-fit bg-teal-500 hover:bg-teal-600 transition-colors duration-300 ease-in-out"> */}
               <Link href="#events">
@@ -36,7 +36,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
           </div>
 
           <Image 
-            src="/assets/images/hero.png"
+            src="/assets/images/Event_i.png"
             alt="hero"
             width={1000}
             height={1000}
@@ -46,7 +46,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
       </section> 
 
       <section id="events" className="wrapper my-8 flex flex-col gap-8 md:gap-12">
-        <h2 className="h2-bold">Trust by <br /> Thousands of Events</h2>
+        <h2 className="h2-bold">Trust by <br /> +100 of Events</h2>
 
         <div className="flex w-full flex-col gap-5 md:flex-row">
           <Search />
